@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(135deg, #3498db, #e74c3c);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #clearButton {
+    background-color: #e74c3c;
+  }
+  
+  #enrollButton {
+    background-color: #2ecc71;
+  }
+  
+  #clearButton:hover,
+  #enrollButton:hover {
+    background-color: #34495e;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #displayInfo {
+    margin-top: 30px;
+  }
+  
+  #displayPhoto {
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  /* Add any additional CSS styles and animations you'd like */
+  

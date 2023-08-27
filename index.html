@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Enrollment Form</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Enrollment Form</h1>
+    <form id="enrollmentForm">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="github">GitHub ID</label>
+      <input type="text" id="github" name="github" required>
+      
+      <label for="skills">Skills</label>
+      <textarea id="skills" name="skills" required></textarea>
+      
+      <label for="photo">Photo</label>
+      <input type="file" id="photo" name="photo" accept="image/*" required>
+      
+      <div class="buttons">
+        <button type="button" id="clearButton">Clear</button>
+        <button type="submit" id="enrollButton">Enroll</button>
+      </div>
+    </form>
+    <div id="displayInfo" class="hidden">
+      <h2>Enrolled Information</h2>
+      <p><strong>Name:</strong> <span id="displayName"></span></p>
+      <p><strong>Email:</strong> <span id="displayEmail"></span></p>
+      <p><strong>GitHub ID:</strong> <span id="displayGithub"></span></p>
+      <p><strong>Skills:</strong> <span id="displaySkills"></span></p>
+      <img id="displayPhoto" src="" alt="Enrollee's Photo">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
